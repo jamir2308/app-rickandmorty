@@ -11,7 +11,7 @@ Debes tener instalado en tu sistema:
 ### Cómo instalar
 1. Primero, debes clonar el repositorio. Abre una terminal y ejecuta el siguiente comando:
 
-```https://github.com/jamir2308/app-rickandmorty.git```
+```git clone https://github.com/jamir2308/app-rickandmorty.git```
 
 2. Luego, navega al directorio del proyecto:
 
