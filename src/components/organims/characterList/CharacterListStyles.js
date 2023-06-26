@@ -25,4 +25,7 @@ export const CharacterTitle = styled.h3`
   text-align: center;
   font-size: 30px;
   color: #202261;
+  @media screen and (max-width: 768px) {
+    font-size: 22px;
+  }
 `;
