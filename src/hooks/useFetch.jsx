@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const useRickAndMortyApi = () => {
+const useFetch = () => {
     const [data, setData] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -26,4 +26,4 @@ const useRickAndMortyApi = () => {
     return { data, isLoading, error };
 };
 
-export default useRickAndMortyApi;
+export default useFetch;

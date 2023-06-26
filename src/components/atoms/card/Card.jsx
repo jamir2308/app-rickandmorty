@@ -14,7 +14,7 @@ export const Card = ({ title, imgUrl,description }) => {
   return (
     <Tilt>
       <CardWrapper>
-        <CardImage background={imgUrl} />
+        <CardImage background={imgUrl} data-testid="card-image" data-imgurl={imgUrl}/>
         <CardTextWrapper>
           <CardTextTitle>{title}</CardTextTitle>
           <CardTextBody>
