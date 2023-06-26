@@ -27,7 +27,7 @@ Para arrancar la aplicación, usa el siguiente comando:
 
 ```npm start```
 
-La aplicación debería estar corriendo en http://localhost:3202.
+La aplicación debería estar corriendo en http://localhost:3201.
 
 ### Pruebas
 
